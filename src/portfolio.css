@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+  color: var(--primary-color);
+}
+
+.hero {
+  text-align: center;
+  margin: 220px 50px;
+}
+
+h3 {
+  font-size: 30px;
+}
+h1 {
+  font-size: 70px;
+}
+:root {
+  --primary-color: rgb(202, 226, 247);
+}
+.navbar-nav {
+  margin-left: 50px;
+}
