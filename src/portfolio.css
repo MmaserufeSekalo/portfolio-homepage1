@@ -62,20 +62,33 @@ a {
   text-decoration: none;
 }
 .my-name {
-  padding: 20px;
+  padding: 1px;
 }
-.mantras-and-song{
+.mantras-and-song {
   margin-bottom: 50px;
 }
 .container {
   text-align: center;
   margin-top: 50px;
 }
-h5{
+h5 {
   font-size: 10px;
 }
 
-.footer{
+.footer {
   margin-top: 60px;
   font-size: x-small;
+}
+li {
+  display: inline;
+  list-style: none;
+  
+}
+@media (max-width:400px) {
+  .my-name h4{
+    font-size: 10px;
+  }
+  nav{
+    font-size: 9px
+  };
 }
