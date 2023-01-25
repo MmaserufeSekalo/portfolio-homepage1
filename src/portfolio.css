@@ -82,6 +82,7 @@ h5 {
 li {
   display: inline;
   list-style: none;
+  margin-right: 10px;
   
 }
 @media (max-width:400px) {
