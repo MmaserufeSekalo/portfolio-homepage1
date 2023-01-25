@@ -1,5 +1,5 @@
 body {
-  background-color:black;
+  background-color: black;
   color: var(--primary-color);
 }
 
@@ -20,30 +20,29 @@ h1 {
 .navbar-nav {
   margin-left: 50px;
 }
-img {
-  width: 350px;
-  height: 350px;
-  border-radius: 20px;
-  border: 3px solid var(--primary-color);
-}
+
 iframe {
-  border: 3px solid var(--primary-color);
+  display: grid;
+  grid-template-rows: 1fr;
 }
 
 .motor {
-  margin-top: 90px;
+  border-radius: 20px;
+
+  margin-top: 100px;
   text-align: center;
 }
-.col-sm-6 {
-  margin-top: 70px;
+.col-sm {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  margin-top: 80px;
+  display: blok;
+  grid-gap: 0px;
 }
 .ditaba {
   margin-left: 10px;
 }
 .biography {
-  
   border-radius: 30px;
   text-align: center;
   font-size: 14px;
@@ -65,3 +64,7 @@ a {
 .my-name {
   padding: 20px;
 }
+.mantras-and-song{
+  margin-bottom: 50px;
+}
+
