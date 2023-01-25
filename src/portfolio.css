@@ -67,4 +67,15 @@ a {
 .mantras-and-song{
   margin-bottom: 50px;
 }
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+h5{
+  font-size: 10px;
+}
 
+.footer{
+  margin-top: 60px;
+  font-size: x-small;
+}
